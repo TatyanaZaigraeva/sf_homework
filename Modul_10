@@ -1,0 +1,30 @@
+let weight = 2108
+let length = 4976
+let width = 1963
+let height = 1435
+let wheelbase = 2959
+let clearance = 154.9
+let trunkVolume = 900
+
+let hasMusicControl = true
+let musicControl = 30
+for hasMusicControl in 1...100 {
+    print(musicControl)
+} // не разобралась как добиться того, чтобы в консоль выводилось только заданное значение 30. Выводится сто раз:)
+let hasSunroof = true
+let hasFan = true
+let hasHeatedSeats = true
+ 
+let hasAutoPilot = true
+if hasAutoPilot == true {
+    print("Включен автопилот, будьте осторожны")
+}else {
+    print("Автопилот выключен. Будьте внимательны на дорогах")
+}
+
+let batteryCharge = 30
+if batteryCharge > 20 {
+    print("OK")
+} else {
+    print("низкий заряд батареи")
+}
