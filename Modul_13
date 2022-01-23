@@ -1,0 +1,31 @@
+/// задание 1
+let someTuple = (age: 20, name: "Olga", surname: "Ivanova")
+let someTowTuple = (age: 25, name: "Anna", surname: "Bystrova")
+someTuple.name
+someTwoTuple.0
+/// задание2
+let daysInMonths = ["31", "28", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"]
+daysInMonths.forEach( {print($0)} )
+let months = ["jenuary", "february", "march", "April", "May", "June", "July", "August", "September", "October", "November", "Desember"]
+///6
+/// 7
+let someMonth = ("January", 31)
+let (name, days) = someMonth {
+/// 8
+print(someMonth.1, someMonth.0)
+}
+/// 9
+var students: [String: Int] = ["Alexey": 4]
+/// 10
+students[4] = 5
+/// 11
+if students.1 > 3 {
+    print("Поздравляем!")
+} else {
+    print("Вы отправлены на пересдачу!")
+}
+/// 12
+students["Svetlana"] = 5
+students["Maxim"] = 5
+/// 13
+students["Svetlana"] = nill
